@@ -20,8 +20,8 @@ source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 # Plugins
 # -----------------------
 
-# Enable zsh-syntax-highlighting for better command-line readability
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # -----------------------
 # Aliases
