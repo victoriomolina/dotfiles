@@ -8,7 +8,7 @@ This repo contains my **terminal, shell, and productivity configs**, managed wit
 
 ![Terminal Preview 1](assets/screenshots/WezTerm.png)
 ![Terminal Preview 2](assets/screenshots/WezTerm_tmux.png)
-[Terminal Preview 3](./assets/screenshots/LazyVim.png)
+![Terminal Preview 3](./assets/screenshots/LazyVim.png)
 
 ## WezTerm keymap cheatsheet
 
