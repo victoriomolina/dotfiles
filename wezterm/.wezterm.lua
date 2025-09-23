@@ -42,7 +42,6 @@ config.enable_tab_bar = cfg.tabbar.config.enable_tab_bar
 config.hide_tab_bar_if_only_one_tab = cfg.tabbar.config.hide_tab_bar_if_only_one_tab
 config.show_tab_index_in_tab_bar = cfg.tabbar.config.show_tab_index_in_tab_bar
 config.use_fancy_tab_bar = cfg.tabbar.config.use_fancy_tab_bar
-config.colors.tab_bar = cfg.tabbar.get_tab_bar_style(config.window_background_image, config.colors.background)
 
 -- Initialize layout
 cfg.layout.setup_gui_startup()
