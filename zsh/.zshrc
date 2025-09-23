@@ -30,4 +30,4 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Python-related aliases for convenience
 alias python="python3"  # Use python3 as default python command
 alias pip="pip3"        # Use pip3 as default pip command
-
+alias vim="nvim"        # Use neovim as default vim command
