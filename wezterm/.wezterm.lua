@@ -14,6 +14,7 @@ config.max_fps = cfg.performance.config.max_fps
 config.animation_fps = cfg.performance.config.animation_fps
 config.cursor_blink_rate = cfg.performance.config.cursor_blink_rate
 config.prefer_egl = cfg.performance.config.prefer_egl
+config.scrollback_lines = cfg.performance.config.scrollback_lines
 
 -- Terminal window (using layout config)
 config.initial_cols = cfg.layout.config.initial_cols

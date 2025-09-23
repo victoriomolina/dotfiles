@@ -9,6 +9,7 @@ M.config = {
   animation_fps = 60,
   cursor_blink_rate = 250,
   prefer_egl = true,
+  scrollback_lines = 10000,
 }
 
 return M
