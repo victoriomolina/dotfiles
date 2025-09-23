@@ -2,12 +2,12 @@
 -- Last updated: September 23, 2025
 
 -- Imports
-local wezterm = require('wezterm')
+local wezterm = require("wezterm")
 local config = wezterm.config_builder()
-local cfg = dofile(os.getenv('HOME') .. '/.wez_config/init.lua')
+local cfg = dofile(os.getenv("HOME") .. "/.wez_config/init.lua")
 
 -- Load theme using scheme module
-local theme = cfg.scheme.load_theme('cyberdream')
+local theme = cfg.scheme.load_theme("kanagawa-dragon")
 
 -- Performance and rendering
 config.max_fps = cfg.performance.config.max_fps
@@ -54,4 +54,3 @@ config.keys = cfg.keys.keymap
 cfg.layout.setup_gui_startup()
 
 return config
-
