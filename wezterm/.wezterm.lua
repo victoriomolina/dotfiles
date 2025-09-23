@@ -1,5 +1,5 @@
 -- ~/.wezterm.lua - WezTerm configuration file
--- Last updated: September 22, 2025
+-- Last updated: September 23, 2025
 
 -- Imports
 local wezterm = require('wezterm')
@@ -34,6 +34,7 @@ config.font_size = cfg.fontbook.config.size
 config.line_height = cfg.fontbook.config.line_height
 
 -- Color scheme
+-- @see https://wezterm.org/colorschemes/index.html
 config.colors = theme
 config.force_reverse_video_cursor = cfg.scheme.config.force_reverse_video_cursor
 
@@ -42,6 +43,11 @@ config.enable_tab_bar = cfg.tabbar.config.enable_tab_bar
 config.hide_tab_bar_if_only_one_tab = cfg.tabbar.config.hide_tab_bar_if_only_one_tab
 config.show_tab_index_in_tab_bar = cfg.tabbar.config.show_tab_index_in_tab_bar
 config.use_fancy_tab_bar = cfg.tabbar.config.use_fancy_tab_bar
+
+-- Key binding
+-- @see https://wezterm.org/config/keys.html
+config.disable_default_key_bindings = cfg.keys.config.disable_defaults
+config.keys = cfg.keys.keymap
 
 -- Initialize layout
 cfg.layout.setup_gui_startup()
