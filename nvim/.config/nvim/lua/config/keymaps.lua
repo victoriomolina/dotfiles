@@ -18,9 +18,23 @@ keymap.set("i", "<C-x>", '<C-o>"+dd', opts)
 keymap.set("v", "<C-c>", [["+y]], opts)
 keymap.set("v", "<C-x>", [["+d]], opts)
 
+-- Paste from clipboard
+keymap.set("i", "<C-v>", '<C-o>"+p', opts)
+keymap.set("v", "<C-v>", '"_d"+p', opts)
+
+-- Indent/outdent
+keymap.set("i", "<Tab>", "<C-o>>>", opts) -- Indent current line
+keymap.set("i", "<S-Tab>", "<C-o><<", opts) -- Outdent current line
+keymap.set("v", "<Tab>", ">gv", opts) -- Indent selection
+keymap.set("v", "<S-Tab>", "<gv", opts) -- Outdent selection
+
+-- Word-wise deletion
+keymap.set("i", "<A-Del>", "<C-w>", opts)
+keymap.set("i", "<A-BS>", "<C-w>", opts) -- Alternative
+
 -- Delete selection (black hole)
 keymap.set("v", "<Del>", '"_d', opts)
-keymap.set("v", "<BS>", '"_d', opts) -- Alternative with Backspace
+keymap.set("v", "<BS>", '"_d', opts) -- Alternative
 
 -- Select all
 keymap.set("n", "<C-a>", "gg<S-v>G")
@@ -52,6 +66,10 @@ keymap.set("n", "<A-Up>", ":m-2<CR>", opts)
 keymap.set("n", "<A-Down>", ":m+1<CR>", opts)
 keymap.set("i", "<A-Up>", "<C-o>:m-2<CR>", opts) -- Move line up in insert mode
 keymap.set("i", "<A-Down>", "<C-o>:m+1<CR>", opts) -- Move line down in insert mode
+
+-- Selection position
+keymap.set("v", "<A-Up>", ":m-2<CR>gv", opts)
+keymap.set("v", "<A-Down>", ":m'>+1<CR>gv", opts)
 
 -- Word navigation
 keymap.set("n", "<A-Left>", "b", opts)

@@ -47,6 +47,8 @@ This repo contains my **terminal, shell, and productivity configs**, managed wit
 | Ctrl + x             | n    | Cut current line to clipboard            |
 | Ctrl + x             | v    | Cut selection to clipboard               |
 | Ctrl + x             | i    | Cut current line to clipboard            |
+| Ctrl + v             | i    | Paste from clipboard                     |
+| Ctrl + v             | v    | Paste over selection from clipboard      |
 | Del / Backspace      | v    | Delete selection (no clipboard)          |
 | Ctrl + a             | n    | Select all                               |
 | Alt + Shift + Left   | n/i  | Select previous word                     |
@@ -63,8 +65,15 @@ This repo contains my **terminal, shell, and productivity configs**, managed wit
 | Shift + Down         | v    | Extend selection down                    |
 | Alt + Up             | n/i  | Move line up                             |
 | Alt + Down           | n/i  | Move line down                           |
+| Alt + Up             | v    | Move selection up                        |
+| Alt + Down           | v    | Move selection down                      |
 | Alt + Left           | n/i  | Move to previous word                    |
 | Alt + Right          | n/i  | Move to next word                        |
+| Alt + Del / Alt + BS | i    | Delete previous word                     |
+| Tab                  | i    | Indent current line                      |
+| Shift + Tab          | i    | Outdent current line                     |
+| Tab                  | v    | Indent selection                         |
+| Shift + Tab          | v    | Outdent selection                        |
 | Ctrl + b             | n/i  | Move to start of line                    |
 | Ctrl + e             | n/i  | Move to end of line                      |
 | Leader + Tab         | n    | Next buffer                              |
@@ -105,6 +114,7 @@ This repo contains my **terminal, shell, and productivity configs**, managed wit
 | Leader + c f         | n/v  | Format code                              |
 | Leader + c l         | n    | LSP info                                 |
 | **File & Search**    |      |                                          |
+| Leader + e           | n    | Toggle file explorer (Snack)             |
 | Leader + Space       | n    | Find files (Telescope)                   |
 | Leader + f f         | n    | Find files (Root Dir)                    |
 | Leader + f F         | n    | Find files (cwd)                         |
