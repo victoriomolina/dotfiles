@@ -1,5 +1,10 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 
+local discipline = require("d3us.discipline")
+
+-- Enable folke's vim discipline
+discipline.cowboy()
+
 local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
 
