@@ -71,7 +71,7 @@ This repo contains my **terminal, shell, and productivity configs**, managed wit
 | Alt + Left           | n/i  | Move to previous word                    |
 | Alt + Right          | n/i  | Move to next word                        |
 | Alt + Del / Alt + BS | i    | Delete previous word                     |
-| Tab                  | i    | Indent current line                      |
+| Tab                  | i    | Indent after cursor                      |
 | Shift + Tab          | i    | Outdent current line                     |
 | Tab                  | v    | Indent selection                         |
 | Shift + Tab          | v    | Outdent selection                        |

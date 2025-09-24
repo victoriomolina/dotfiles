@@ -23,7 +23,6 @@ keymap.set("i", "<C-v>", '<C-o>"+p', opts)
 keymap.set("v", "<C-v>", '"_d"+p', opts)
 
 -- Indent/outdent
-keymap.set("i", "<Tab>", "<C-o>>>", opts) -- Indent current line
 keymap.set("i", "<S-Tab>", "<C-o><<", opts) -- Outdent current line
 keymap.set("v", "<Tab>", ">gv", opts) -- Indent selection
 keymap.set("v", "<S-Tab>", "<gv", opts) -- Outdent selection
