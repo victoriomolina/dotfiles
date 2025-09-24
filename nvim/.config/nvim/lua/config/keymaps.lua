@@ -126,6 +126,6 @@ keymap.set("n", "+", "<C-a>")
 keymap.set("n", "-", "<C-x>")
 
 -- Diagnostics
-keymap.set("n", "<C-j>", function()
-  vim.diagnostic.jump({ count = 2, float = true })
+keymap.set("n", "<Q-j>", function()
+  vim.diagnostic.get_next()
 end, opts) -- Go to next diagnostic
