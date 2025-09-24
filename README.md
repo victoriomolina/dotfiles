@@ -14,6 +14,7 @@ This repo contains my **terminal, shell, and productivity configs**, managed wit
 
 | Shortcut                   | Action                                   |
 |----------------------------|------------------------------------------|
+| Ctrl + Shift + F           | Toggle full screen                       |
 | Cmd + t                    | New tab                                  |
 | Ctrl + Shift + ←           | Move tab left                            |
 | Ctrl + Shift + →           | Move tab right                           |
