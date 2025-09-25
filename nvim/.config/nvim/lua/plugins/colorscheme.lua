@@ -1,4 +1,4 @@
--- ~/.config/nvim/lua/plugins/colroscheme.lua - LazyVim theme
+-- ~/.config/nvim/lua/plugins/colorscheme.lua - LazyVim theme
 -- Last updated: September 25, 2025
 
 return {
