@@ -1,3 +1,6 @@
+-- ~/.config/nvim/lua/plugins/colroscheme.lua - LazyVim theme
+-- Last updated: September 25, 2025
+
 return {
   {
     "rebelot/kanagawa.nvim",

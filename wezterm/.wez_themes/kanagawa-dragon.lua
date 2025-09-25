@@ -1,3 +1,6 @@
+-- ~/.wez_themes/kanagawa-dragon.lua - Kanagawa Dragon theme
+-- Last updated: September 25, 2025
+
 return {
 	foreground = "#C5C9C5",
 	background = "#181616",

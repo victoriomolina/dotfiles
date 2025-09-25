@@ -1,3 +1,6 @@
+# ~/.config/nvim/stylua.toml - Settings for Lua code formatter
+# Last updated: September 25, 2025
+
 indent_type = "Spaces"
 indent_width = 2
 column_width = 80

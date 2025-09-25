@@ -1,3 +1,6 @@
+-- ~/.config/nvim/lua/d3us/discipline.lua - LazyVim discipline script
+-- Last updated: September 25, 2025
+
 local M = {}
 
 function M.cowboy()
@@ -15,9 +18,8 @@ function M.cowboy()
 
       if count >= 10 and vim.bo.buftype ~= "nofile" then
         ok = pcall(vim.notify, "Hold it Cowboy!", vim.log.levels.WARN, {
-          icon = "🤠",
           id = "cowboy",
-
+          icon = "🤠",
           keep = function()
             return count >= 10
           end,

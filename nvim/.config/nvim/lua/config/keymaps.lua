@@ -1,4 +1,6 @@
--- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
+-- ~/.config/nvim/lua/config/keymaps.lua - LazyVim custom keymaps
+-- Last updated: September 25, 2025
+-- @see https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 
 local discipline = require("d3us.discipline")
 

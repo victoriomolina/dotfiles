@@ -5,17 +5,16 @@ local M = {}
 
 -- Font fallback list
 M.font_fallback = {
-  'JetBrains Mono',
-  'SFMono Nerd Font',
-  'SF Mono',
-  'Gintronic',
+	"JetBrains Mono",
+	"SFMono Nerd Font",
+	"SF Mono",
+	"Gintronic",
 }
 
 -- Font configuration
 M.config = {
-  size = 14,
-  line_height = 1.2,
+	size = 14,
+	line_height = 1.2,
 }
 
 return M
-

@@ -1,3 +1,6 @@
+-- ~/.config/nvim/lua/plugins/dashboard.lua - LazyVim UI's dashboard
+-- Last updated: September 25, 2025
+
 return {
   {
     "folke/snacks.nvim",
