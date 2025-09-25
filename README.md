@@ -11,6 +11,7 @@ This repo contains my **terminal, shell, and productivity configs**, managed wit
 ![Code Editor Preview 1](./assets/screenshots/LazyVim.png)
 ![Code Editor Preview 2](./assets/screenshots/TypeScript.png)
 ![Code Editor Preview 3](./assets/screenshots/Mason.png)
+![Telescope 1](./assets/screenshots/Telescope_grep.png)
 
 ## WezTerm keymap cheatsheet
 
@@ -99,6 +100,19 @@ This repo contains my **terminal, shell, and productivity configs**, managed wit
 | Ctrl + j              | n    | Jump to next diagnostic (with float) |
 | Plus (+)              | n    | Increment number                     |
 | Minus (-)             | n    | Decrement number                     |
+
+### Telescope keymaps
+
+| Shortcut | Mode | Action                                                          |
+| -------- | ---- | --------------------------------------------------------------- |
+| ; f      | n    | Find files (hidden = true, respects .gitignore)                 |
+| ; b      | n    | Open file browser in current buffer directory (hidden, grouped) |
+| ; r      | n    | Live grep in current working directory (includes hidden files)  |
+| ; e      | n    | Show diagnostics (all buffers or current buffer)                |
+| ; ;      | n    | Resume last Telescope picker                                    |
+| \ \      | n    | List open buffers                                               |
+
+> Telescope documentation: https://github.com/nvim-telescope/telescope.nvim
 
 ### LazyVim defaults (essential keymaps)
 
