@@ -131,6 +131,11 @@ keymap.set("n", "<C-w><down>", "<C-w>-")
 keymap.set("n", "+", "<C-a>")
 keymap.set("n", "-", "<C-x>")
 
+-- Increname (word renaming)
+keymap.set("n", "<leader>rn", function()
+  return ":IncRename " .. vim.fn.expand("<cword>")
+end, { expr = true })
+
 -- Diagnostics
 keymap.set("n", "<Q-j>", function()
   vim.diagnostic.get_next()

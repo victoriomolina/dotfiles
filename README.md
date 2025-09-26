@@ -100,6 +100,7 @@ This repo contains my **terminal, shell, and productivity configs**, managed wit
 | Ctrl + j              | n    | Jump to next diagnostic (with float) |
 | Plus (+)              | n    | Increment number                     |
 | Minus (-)             | n    | Decrement number                     |
+| Leader + r n          | n    | Incremental renaming (word)          |
 
 ### Telescope keymaps
 

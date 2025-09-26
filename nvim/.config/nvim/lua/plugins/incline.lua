@@ -1,3 +1,6 @@
+-- ~/.config/nvim/lua/plugins/incline.lua - LazyVim file names
+-- Last updated: September 26, 2025
+
 return {
   {
     "b0o/incline.nvim",
