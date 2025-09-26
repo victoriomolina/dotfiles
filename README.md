@@ -221,6 +221,8 @@ This repo contains my **terminal, shell, and productivity configs**, managed wit
 | Leader + u f         | n     | Toggle auto format (global)       |
 | Leader + u F         | n     | Toggle auto format (buffer)       |
 | Leader + u c         | n     | Toggle conceal level              |
+| **Tools**            |       |                                   |
+| Leader + c m         | n     | Launch Mason                      |
 | **Quick Actions**    |       |                                   |
 | Ctrl + s             | i/n/v | Save file                         |
 | Leader + q q         | n     | Quit all                          |
