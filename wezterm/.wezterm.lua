@@ -25,7 +25,7 @@ config.window_close_confirmation = cfg.layout.config.close_confirmation
 config.window_padding = cfg.layout.config.padding
 
 -- Background styling
-config.window_background_image = cfg.background.bg_image
+-- config.window_background_image = cfg.background.bg_image
 config.window_background_opacity = cfg.background.config.opacity
 config.macos_window_background_blur = cfg.background.config.blur
 

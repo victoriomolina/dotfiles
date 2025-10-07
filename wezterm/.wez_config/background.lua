@@ -8,8 +8,8 @@ M.bg_image = os.getenv("HOME") .. "/.wez_assets/wallpapers/bg-blurred.png"
 
 -- Background configuration
 M.config = {
-	opacity = 0.8,
-	blur = 20,
+	opacity = 0.99,
+	blur = 50,
 }
 
 return M
