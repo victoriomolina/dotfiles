@@ -1,5 +1,5 @@
 -- ~/.config/nvim/lua/plugins/colorscheme.lua - LazyVim theme
--- Last updated: September 25, 2025
+-- Last updated: November 14, 2025
 
 return {
   {
@@ -12,7 +12,7 @@ return {
         theme = "dragon",
       })
 
-      vim.cmd("colorscheme kanagawa")
+      vim.cmd("colorscheme kanagawa-dragon")
     end,
   },
 }
